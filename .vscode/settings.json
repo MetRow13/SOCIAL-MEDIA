@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "Local",
+            "database": "Social_Media",
+            "username": "root",
+            "password": "123456",
+            "connectionTimeout": 30
+        }
+    ]
+}

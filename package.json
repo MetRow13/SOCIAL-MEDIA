@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && nodemon app.js",
+    "frontend": "cd Home && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "dependencies": {
+    "zustand": "^5.0.2"
+  }
+}
